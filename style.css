@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    margin: 8px;
+    font-size: 30px;
+}
+.number{
+    border: 1px solid powderblue;
+    border-radius: 8px;
+}
+.number:hover{
+    background-color: powderblue;
+}
+.operator{
+    border: 1px solid green;
+    border-radius: 8px;
+}
+.operator:hover{
+    background-color: palegreen;
+}
+.decimal{
+    border: 1px solid goldenrod;
+    border-radius: 8px;
+}
+.decimal:hover{
+    background-color: peru;
+}
+.equal{
+    border: 1px solid yellow;
+    border-radius: 8px;
+}
+.equal:hover{
+    background-color: yellow;
+}
+#clear-btn{
+    border: 1px solid plum;
+    border-radius: 12px;
+}
+#clear-btn:hover{
+    background-color: palegreen;
+}
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+#screen{
+    width: 255px;
+    border: 1px solid blueviolet;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.previous{
+    font-size: 15px;
+}
+.current{
+    font-size: 25;
+}
